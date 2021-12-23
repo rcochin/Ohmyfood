@@ -135,9 +135,15 @@ footer
 }
 footer svg{width: 120px;}
 footer svg path{fill: white;}
-footer li{list-style: none;}
+footer li
+{
+    list-style: none;
+    margin-top: 8px;
+}
 footer ul{padding:0px;}
 footer a{
     text-decoration: none;
     color: white;
 }
+footer i{min-width: 29px;}
+.fa-hands-helping{font-size: 13px;}
