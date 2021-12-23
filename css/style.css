@@ -13,3 +13,11 @@ header
     -moz-box-shadow: 0px 4px 5px 0px rgb(183 183 183 / 75%);
 }
 nav svg{width: 165px;}
+.bloc-localisation
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+}
+.bloc-localisation i{margin-right: 10px;}
