@@ -22,3 +22,9 @@ nav svg{width: 165px;}
     margin-top: 5px;
 }
 .bloc-localisation i{margin-right: 10px;}
+.bloc-explore
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
