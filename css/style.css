@@ -56,3 +56,11 @@ nav p{font-weight: 500;}
     -moz-box-shadow: 5px 6px 10px 0px rgba(166,166,166,0.75);
 }
 .pres-link p{min-width: 175px;}
+.bloc-fonctionnement span
+{
+    color: white;
+    font-size: 14px;
+    border-radius: 50%;
+    padding: 4px 8px;
+    background-color: #9356DC;
+}
