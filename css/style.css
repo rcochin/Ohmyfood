@@ -37,9 +37,9 @@ nav p{font-weight: 500;}
 .bloc-explore button
 {
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 25px;
     border: none;
-    background-color: linear-gradient(#FF79DA, #9356DC);
+    background: linear-gradient(0.30turn, #FF79DA, #9356DC);
     color: white;
     font-size: 15px;
 }
