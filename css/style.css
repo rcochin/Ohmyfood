@@ -47,6 +47,7 @@ nav p{font-weight: 500;}
     -webkit-box-shadow: 1px 3px 7px 1px rgb(166 166 166 / 75%);
     -moz-box-shadow: 1px 3px 7px 1px rgb(166 166 166 / 75%);
     transition: all 400ms ease-in-out;
+    cursor: pointer;
 }
 .bloc-explore button:hover
 {
@@ -158,3 +159,7 @@ footer a{
 }
 footer i{min-width: 29px;}
 .fa-hands-helping{font-size: 13px;}
+.fa-heart:active{
+    background: linear-gradient(0.48turn, #FF79DA 20%, #9356DC);
+    transition: all 400ms ease-in-out;
+}
