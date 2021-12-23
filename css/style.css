@@ -75,3 +75,23 @@ nav p{font-weight: 500;}
     left: -13px;
 }
 .pres-link i{color: #7e7e7e;}
+
+.bloc-restaurants 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloc-restaurants h2
+{
+    width: 100%;
+}
+.resto
+{
+    width: 85%;
+}
+.resto img
+{
+    width: 100%;
+}
