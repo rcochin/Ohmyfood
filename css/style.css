@@ -126,3 +126,14 @@ nav p{font-weight: 500;}
     font-size: 20px;
     color: #7e7e7e;
 }
+footer
+{
+    margin-top: 20px;
+    background-color: #353535;
+    color: white;
+    padding: 20px;
+}
+footer svg{width: 120px;}
+footer svg path{fill: white;}
+footer li{list-style: none;}
+footer a{text-decoration: none;}
