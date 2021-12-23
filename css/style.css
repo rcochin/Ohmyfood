@@ -159,7 +159,3 @@ footer a{
 }
 footer i{min-width: 29px;}
 .fa-hands-helping{font-size: 13px;}
-.fa-heart:active{
-    background: linear-gradient(0.48turn, #FF79DA 20%, #9356DC);
-    transition: all 400ms ease-in-out;
-}
