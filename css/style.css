@@ -34,3 +34,12 @@ nav p{font-weight: 500;}
     background-color: #f6f6f6;
     padding: 40px 0px 40px 0px;
 }
+.bloc-explore button
+{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    font-size: 15px;
+}
