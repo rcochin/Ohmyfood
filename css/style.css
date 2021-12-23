@@ -136,4 +136,8 @@ footer
 footer svg{width: 120px;}
 footer svg path{fill: white;}
 footer li{list-style: none;}
-footer a{text-decoration: none;}
+footer ul{padding:0px;}
+footer a{
+    text-decoration: none;
+    color: white;
+}
