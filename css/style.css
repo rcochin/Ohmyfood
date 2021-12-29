@@ -161,7 +161,7 @@ footer i{min-width: 29px;}
 .fa-hands-helping{font-size: 13px;}
 
 .pres-link:hover{background-color: rgba(147, 86, 220, 0.2);}
-.pres-link:hover a{color: #9356DC;}
+.pres-link:hover i{color: #9356DC;}
 .fa-heart:active
 {
     color: #9356DC; 
