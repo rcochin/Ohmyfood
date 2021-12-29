@@ -11,7 +11,7 @@ header,main,footer
 }
 .loading-spinner
 {
-    top: 15%;
+    top: 50%;
     left: 25%;
     z-index: 2;
     position: absolute;
@@ -21,7 +21,9 @@ header,main,footer
     display: flex;
     justify-content: center;
     transform-origin: bottom center;
-    animation: rotate 3s ease-in-out infinite;
+    animation: rotate 3s linear infinite;
+    animation: desappear 1s linear forwards 4s;
+    opacity: 1;
 }
 .circle
 {
@@ -49,6 +51,13 @@ header,main,footer
     to
     {
         opacity: 1;
+    }
+}
+@keyframes desappear
+{
+    to
+    {
+        opacity: 0;
     }
 }
 @keyframes rotate
