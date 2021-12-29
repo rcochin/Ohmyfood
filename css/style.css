@@ -3,6 +3,11 @@
 body{margin: 0px;}
 h1,h2,h3,h4,h5,h6{margin: 0px;}
 /*----loader----*/
+header,main,footer
+{
+    opacity: 0;
+    animation: appear 5s linear forwards;
+}
 .loading-spinner
 {
     width: 150px;
@@ -11,7 +16,7 @@ h1,h2,h3,h4,h5,h6{margin: 0px;}
     display: flex;
     justify-content: center;
     transform-origin: bottom center;
-    animation: rotate 3s linear infinite;
+    animation: rotate 3s ease-in-out 4s;
 }
 .circle
 {
@@ -21,6 +26,7 @@ h1,h2,h3,h4,h5,h6{margin: 0px;}
     border-radius: 50%;
     animation: zoom 1.5s linear infinite;
     transform: scale(0);
+    margin: -10px;
 }
 .circle:nth-child(2)
 {
@@ -31,6 +37,14 @@ h1,h2,h3,h4,h5,h6{margin: 0px;}
 {
     background-color: #99E2D0;
     animation-delay: 600ms;
+    margin-top: 10px;
+}
+@keyframes appear
+{
+    to
+    {
+        opacity: 1;
+    }
 }
 @keyframes rotate
 {
@@ -43,7 +57,7 @@ h1,h2,h3,h4,h5,h6{margin: 0px;}
 {
     50%
     {
-        transform: scale(1);
+        transform: scale(0.7);
     }
 }
 /*----Accueil----*/
