@@ -32,7 +32,6 @@ header,main,footer
     justify-content: center;
     transform-origin: bottom center;
     animation: rotate 3s linear infinite, desappear 0.1s linear forwards 4s;
-    display: block;
 }
 .circle
 {
