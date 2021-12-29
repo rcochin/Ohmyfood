@@ -2,6 +2,30 @@
 *{box-sizing: border-box;font-family: 'Roboto', sans-serif;}
 body{margin: 0px;}
 h1,h2,h3,h4,h5,h6{margin: 0px;}
+/*----loader----*/
+.loading-spinner
+{
+    height: 50px;
+    transform-origin: bottom center;
+    animation: rotate 3s linear infinite;
+}
+.circle
+{
+    background-color: #9356DC;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    animation: zoom 1.5s linear infinite;
+}
+.circle:nth-child(2){background-color: #f789d7;}
+
+@keyframes rotate
+{
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
 /*----Accueil----*/
 header
 {
