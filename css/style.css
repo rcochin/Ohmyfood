@@ -22,8 +22,16 @@ h1,h2,h3,h4,h5,h6{margin: 0px;}
     animation: zoom 1.5s linear infinite;
     transform: scale(0);
 }
-.circle:nth-child(2){background-color: #f789d7;}
-
+.circle:nth-child(2)
+{
+    background-color: #f789d7;
+    animation-delay: 400ms;
+}
+.circle:nth-child(3)
+{
+    background-color: #99E2D0;
+    animation-delay: 600ms;
+}
 @keyframes rotate
 {
     to
