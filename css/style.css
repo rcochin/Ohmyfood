@@ -9,6 +9,11 @@ header,main,footer
     animation: appear 1s linear forwards;
     animation-delay: 5s;
 }
+.logo-loader
+{
+    width: 100px;
+    margin: 0 auto;
+}
 .loading-spinner
 {
     top: 50%;
