@@ -160,8 +160,8 @@ footer a{
 footer i{min-width: 29px;}
 .fa-hands-helping{font-size: 13px;}
 
-.pres-link:hover{background-color: rgba(147, 86, 220, 0.2);}
-.pres-link:hover i{color: #9356DC; transition: all 400ms ease-in-out;}
+.pres-link:hover{background-color: rgba(147, 86, 220, 0.2);transition: all 400ms ease-in-out;}
+.pres-link:hover i{color: #9356DC;}
 .fa-heart:hover
 {
     color: #9356DC; 
