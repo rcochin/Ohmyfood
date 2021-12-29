@@ -166,5 +166,5 @@ footer i{min-width: 29px;}
 {
     color: #9356DC; 
     font-weight: bold;
-    transition: all 400ms ease-in-out;
+    transition: color 1000ms linear;
 }
