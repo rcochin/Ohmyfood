@@ -21,8 +21,7 @@ header,main,footer
     display: flex;
     justify-content: center;
     transform-origin: bottom center;
-    animation: rotate 3s linear infinite;
-    animation: desappear 1s linear forwards 4s;
+    animation: rotate 3s linear infinite, desappear 1s linear forwards 4s;
     opacity: 1;
 }
 .circle
