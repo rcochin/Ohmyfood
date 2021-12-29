@@ -17,7 +17,7 @@ header,main,footer
     z-index: 2;
     position: absolute;
     animation: desappear 0.1s linear forwards 4s;
-
+    opacity: 1;
 }
 .loading-spinner
 {
@@ -32,6 +32,7 @@ header,main,footer
     justify-content: center;
     transform-origin: bottom center;
     animation: rotate 3s linear infinite, desappear 0.1s linear forwards 4s;
+    opacity: 1;
 }
 .circle
 {
@@ -65,7 +66,7 @@ header,main,footer
 {
     to
     {
-        display: none;
+        opacity: 0;
     }
 }
 @keyframes rotate
