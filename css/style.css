@@ -250,7 +250,7 @@ footer i{min-width: 29px;}
     transition: all 1000ms linear;
 }
 /*----menu-1----*/
-.page-id-2 main{background-color: #7e7e7e}
+.page-id-2 main, .page-id-2 section{background-color: #f6f6f6}
 .fa-arrow-left
 {    
     position: absolute;
@@ -299,3 +299,4 @@ footer i{min-width: 29px;}
 }
 .page-id-2 article h5{width: 100%;}
 h5{font-size: 17px;}
+.fa-check-circle{display: none;}
