@@ -260,4 +260,20 @@ footer i{min-width: 29px;}
     height: 250px;
     object-fit: cover;
     width: 100%;
+    position: absolute;
+    top: 66px;
+    z-index: -1;
+}
+.page-id-2 section{padding: 15px;}
+.page-id-2 h2{font-family: 'Shrikhand', cursive;}
+.menu-title
+{
+    border: solid 1px white;
+    border-top-left-radius: 30px;
+    margin-top: 225px;
+    background: white;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
