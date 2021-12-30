@@ -249,3 +249,15 @@ footer i{min-width: 29px;}
     font-weight: bold;
     transition: all 1000ms linear;
 }
+/*----menu-1----*/
+.fa-arrow-left
+{    
+    position: absolute;
+    left: 20px;
+}
+.img-header
+{
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
