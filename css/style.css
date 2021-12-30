@@ -278,3 +278,9 @@ footer i{min-width: 29px;}
     align-items: center;
 }
 .page-id-2 .fa-heart{font-size: 22px;}
+.menu-desc
+{
+    display: flex;
+    justify-content: space-between;
+}
+h5{font-size: 17px;}
