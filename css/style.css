@@ -296,6 +296,7 @@ footer i{min-width: 29px;}
     -webkit-box-shadow: 2px 3px 8px 0px rgb(166 166 166 / 75%);
     -moz-box-shadow: 2px 3px 8px 0px rgb(166 166 166 / 75%);
     background-color: white;
+    margin: 13px 0px 13px 0px;
 }
 .page-id-2 article h5{width: 100%;}
 h5{font-size: 17px;}
