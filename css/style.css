@@ -304,17 +304,17 @@ footer i{min-width: 29px;}
 }
 .page-id-2 article h5{width: 100%;}
 h5{font-size: 17px;}
-.hide
+.fa-check-circle
 {
     display: none !important;
     transform: translateX(50px);
 }    
 
-.menu-desc:hover .hide
+.menu-desc:hover .fa-check-circle
 {
     display: block !important;
     transform: translateX(0px);
-    transition: transform 800ms ease-out;
+    transition: transform 400ms ease-out;
 }
 .page-id-2 main
 {
