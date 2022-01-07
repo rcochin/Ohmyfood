@@ -3,7 +3,7 @@
 body{margin: 0px;}
 h1,h2,h3,h4,h5,h6{margin: 0px;}
 /*----loader----*/
-.page-id-1 header, .page-id-2 main, .page-id-3 footer
+.page-id-1 header, .page-id-1 main, .page-id-1 footer
 {
     opacity: 0;
     animation: appear 1s linear forwards;
