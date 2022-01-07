@@ -309,7 +309,7 @@ h5{font-size: 17px;}
     justify-content: center;
 }
 
-.bloc-food article
+/*.bloc-food article
 {
     opacity: 0;
     transform: translateY(5%);
