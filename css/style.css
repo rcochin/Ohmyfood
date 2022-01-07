@@ -287,7 +287,7 @@ footer i{min-width: 29px;}
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.menu-desc p{width: 200px;}
+.menu-desc p:first-child{width: 200px;}
 .page-id-2 article
 {
     display: flex;
