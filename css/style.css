@@ -309,14 +309,14 @@ h5{font-size: 17px;}
     justify-content: center;
 }
 
-/*.bloc-food article
+.bloc-food article
 {
     opacity: 0;
     transform: translateY(5%);
-    animation: slide-up 400ms ease-in-out;
+    animation: slide 400ms ease-in-out;
 }
 
-@keyframes slide-up
+@keyframes slide
 {
     to
     {
