@@ -286,6 +286,7 @@ footer i{min-width: 29px;}
     width: 100%;
     justify-content: space-between;
 }
+.menu-desc p{width: 200px;}
 .page-id-2 article
 {
     display: flex;
@@ -301,7 +302,7 @@ footer i{min-width: 29px;}
 }
 .page-id-2 article h5{width: 100%;}
 h5{font-size: 17px;}
-.fa-check-circle{display: none !important;}
+.fa-check-circle{display: none !    ;}
 .page-id-2 main
 {
     display: flex;
