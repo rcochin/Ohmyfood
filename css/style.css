@@ -288,6 +288,7 @@ footer i{min-width: 29px;}
     justify-content: space-between;
 }
 .menu-desc p:first-child{width: 200px;}
+.menu-desc p{margin-bottom: 5px;}
 .page-id-2 article
 {
     display: flex;
