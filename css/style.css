@@ -306,26 +306,16 @@ footer i{min-width: 29px;}
 h5{font-size: 17px;}
 .fa-check-circle
 {
-    /*overflow-y: hidden;
-    max-height: 400px;
-    transition-property: all;
-    transition-duration: 500ms;
-    transition-timing-function: cubic-bezier(0,1,0.5,1);*/
-}
-.bloc-food article{overflow-x: hidden;}
-.hide
-{
-    right: 100%;
-    position: relative;
-    transition: all .3s ease-out;
-    height: 100%;
-}
-.bloc-food article:hover > .hide{right: 0;}
-/*
+    display: none !important;
+    transform: translateX(50px);
+}    
+
 .menu-desc:hover .fa-check-circle
 {
     display: block !important;
-}*/
+    transform: translateX(0px);
+    transition: transform 400ms ease-out;
+}
 .page-id-2 main
 {
     display: flex;
