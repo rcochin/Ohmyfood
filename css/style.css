@@ -3,7 +3,7 @@
 body{margin: 0px;}
 h1,h2,h3,h4,h5,h6{margin: 0px;}
 /*----loader----*/
-header,main,footer
+.page-id-1 header,main,footer
 {
     opacity: 0;
     animation: appear 1s linear forwards;
@@ -246,6 +246,7 @@ footer i{min-width: 29px;}
 .fa-heart:hover
 {
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background: linear-gradient(0.48turn, #FF79DA 20%, #9356DC); 
     transition: all 1000ms linear;
 }
@@ -306,4 +307,20 @@ h5{font-size: 17px;}
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.bloc-food article
+{
+    opacity: 0;
+    transform: translateY(5%);
+    animation: slide-up 400ms ease-in-out;
+}
+
+@keyframes slide-up
+{
+    to
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
