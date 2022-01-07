@@ -312,10 +312,20 @@ h5{font-size: 17px;}
     transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0,1,0.5,1);*/
 }
+.bloc-food article{overflow-x: hidden;}
+.hide
+{
+    right: 100%;
+    position: relative;
+    transition: all .3s ease-out;
+    height: 100%;
+}
+.bloc-food article:hover > .hide{right: 0;}
+/*
 .menu-desc:hover .fa-check-circle
 {
     display: block !important;
-}
+}*/
 .page-id-2 main
 {
     display: flex;
