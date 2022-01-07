@@ -314,7 +314,7 @@ h5{font-size: 17px;}
 {
     display: block !important;
     transform: translateX(0px);
-    transition: transform 400ms ease-out;
+    transition: transform 800ms ease-out;
 }
 .page-id-2 main
 {
