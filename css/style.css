@@ -255,7 +255,7 @@ footer i{min-width: 29px;}
     background: linear-gradient(0.48turn, #FF79DA 20%, #9356DC); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 1000ms linear;
+    transition: background 800ms linear;
 }
 /*----menu-1----*/
 .page-id-2 main, .page-id-2 section{background-color: #f6f6f6}
