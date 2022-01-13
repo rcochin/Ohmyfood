@@ -251,10 +251,10 @@ footer i{min-width: 29px;}
 }
 .fa-heart:hover
 {
+    -webkit-text-stroke-width:0px;
     background: linear-gradient(0.48turn, #FF79DA 20%, #9356DC); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transform: scale(1);
     transition: all 1000ms linear;
 }
 /*----menu-1----*/
