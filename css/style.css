@@ -323,8 +323,9 @@ h5{font-size: 17px;}
 {
     display: none !important;
     width: 12%;
-    padding: 10px;
     position: relative;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 .fa-check-circle
 {
