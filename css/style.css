@@ -311,11 +311,11 @@ footer i{min-width: 29px;}
 }
 .page-id-2 article h5{width: 100%;}
 h5{font-size: 17px;}
-.fa-check-circle
+/*.fa-check-circle
 {
     display: none !important;
     transform: translateX(50px);
-}    
+}    */
 
 .menu-desc:hover .fa-check-circle
 {
