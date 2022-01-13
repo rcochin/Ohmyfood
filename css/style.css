@@ -324,7 +324,7 @@ h5{font-size: 17px;}
     display: none !important;
     width: 20%;
     position: relative;
-    transform: translateX(50px);
+    
 }
 .fa-check-circle
 {
@@ -337,16 +337,21 @@ h5{font-size: 17px;}
     background-color: #99e2d0;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
+    transform: translateX(50px);
+}
+.fa-check-circle::before
+{
     transform: rotate(-360deg);
     transition: transform 500ms forwards;
 }
 
-.page-id-2 article:hover .hide
+.page-id-2 article:hover .hide{display: block !important;}
+.page-id-2 article:hover .fa-check-circle
 {
-    display: block !important;
     transform: translateX(0px);
     transition: transform 400ms ease-in-out;
 }
+
 .page-id-2 main
 {
     display: flex;
