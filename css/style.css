@@ -321,24 +321,22 @@ footer i{min-width: 29px;}
 h5{font-size: 17px;}
 .hide
 {
+    display: none;
     width: 12%;
     padding: 10px;
     position: relative;
 }
 .fa-check-circle
 {
-    display: none !important;
     position: absolute;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
 }
 
-.food-info:hover .fa-check-circle
+.food-info:hover .hide
 {
-    display: block !important;
+    display: block;
 }
 .page-id-2 main
 {
