@@ -271,7 +271,6 @@ footer i{min-width: 29px;}
     width: 100%;
     position: absolute;
     top: 66px;
-    z-index: -1;
 }
 .page-id-2 section{padding: 15px;}
 .page-id-2 h2{font-family: 'Shrikhand', cursive;}
@@ -285,6 +284,7 @@ footer i{min-width: 29px;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 .page-id-2 .fa-heart{font-size: 22px;}
 .menu-desc
