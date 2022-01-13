@@ -309,19 +309,29 @@ footer i{min-width: 29px;}
     margin: 13px 0px 13px 0px;
 }
 .page-id-2 article h5{width: 100%;}
+.food-info{width: 100%;}
 .desc-food
 {
     display: flex;
     justify-content: space-between;
 }
 h5{font-size: 17px;}
-/*.fa-check-circle
+.hide
 {
-    display: none !important;
-    transform: translateX(50px);
-}    */
+    width: 12%;
+    position: relative;
+}
+.fa-check-circle
+{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
-.menu-desc:hover .fa-check-circle
+.food-info:hover .fa-check-circle
 {
     display: block !important;
     transform: translateX(0px);
