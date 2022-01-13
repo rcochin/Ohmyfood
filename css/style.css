@@ -299,7 +299,6 @@ footer i{min-width: 29px;}
 .page-id-2 article
 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     border-radius: 16px;
     padding: 10px;
@@ -310,6 +309,11 @@ footer i{min-width: 29px;}
     margin: 13px 0px 13px 0px;
 }
 .page-id-2 article h5{width: 100%;}
+.desc-food
+{
+    display: flex;
+    justify-content: space-between;
+}
 h5{font-size: 17px;}
 /*.fa-check-circle
 {
