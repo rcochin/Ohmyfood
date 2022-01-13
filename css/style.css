@@ -243,11 +243,18 @@ footer i{min-width: 29px;}
 
 .pres-link:hover{background-color: rgba(147, 86, 220, 0.2);transition: background-color 1000ms linear;}
 .pres-link:hover i{color: #9356DC;}
+.fa-heart
+{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
 .fa-heart:hover
 {
     background: linear-gradient(0.48turn, #FF79DA 20%, #9356DC); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transform: scale(1);
     transition: all 1000ms linear;
 }
 /*----menu-1----*/
