@@ -322,8 +322,9 @@ h5{font-size: 17px;}
 .hide
 {
     display: none !important;
-    width: 12%;
+    width: 20%;
     position: relative;
+    transform: translateX(50px);
 }
 .fa-check-circle
 {
@@ -341,6 +342,8 @@ h5{font-size: 17px;}
 .page-id-2 article:hover .hide
 {
     display: block !important;
+    transform: translateX(0px);
+    transition: transform 400ms ease-in-out;
 }
 .page-id-2 main
 {
