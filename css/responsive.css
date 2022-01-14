@@ -37,4 +37,9 @@
     align-items: center;
    }
    .resto{width: 40%;}
+   .bloc-fonctionnement .pres-link
+   {
+       width: 29%;
+       margin-top: 15px;
+   }
 }
