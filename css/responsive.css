@@ -1,0 +1,28 @@
+@media screen and (max-width:1500px)
+{
+  
+}
+@media screen and (max-width:1300px)
+{
+
+}
+@media screen and (max-width:1100px)
+{
+   
+}
+@media screen and (max-width:992px)
+{
+  
+}
+
+@media screen and (min-width:768px)
+{
+   .bloc-food
+   {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
+   .bloc-food h4{width: 100%;}
+   .bloc-food article{width: 48%;}
+}
