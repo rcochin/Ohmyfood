@@ -311,6 +311,7 @@ footer i{min-width: 29px;}
 .food-info
 {
     width: 100%;
+    height: 90px;
     padding: 10px;
 }
 .desc-food
@@ -318,6 +319,7 @@ footer i{min-width: 29px;}
     display: flex;
     justify-content: space-between;
 }
+.desc-food:first-child{text-overflow: ellipsis;}
 h5{font-size: 17px;}
 .hide
 {
