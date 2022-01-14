@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6{margin: 0px;}
 .logo-loader
 {
     width: 180px;
-    left: 22%;
+    left: auto;
     top: 40%;
     z-index: 2;
     position: absolute;
@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6{margin: 0px;}
 .loading-spinner
 {
     top: 50%;
-    left: 25%;
+    left: auto;
     z-index: 2;
     position: absolute;
     width: 150px;

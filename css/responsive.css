@@ -44,9 +44,4 @@
        margin: 0px;
        margin-top: 15px;
    }
-   .bloc-loader
-   {
-       display: flex;
-       justify-content: center;
-   }
 }
