@@ -349,7 +349,7 @@ h5{font-size: 17px;}
 .fa-check-circle::before
 {
     transform: rotate(-360deg);
-    transition: transform 500ms forwards;
+    transition: transform 500ms ease-out;
 }
 
 .page-id-2 article:hover .hide{display: block !important;}
