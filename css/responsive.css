@@ -21,4 +21,19 @@
    }
    .bloc-food h4{width: 100%;}
    .bloc-food article{width: 48%;}
+   .bloc-fonctionnement
+   {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   }
+   .bloc-restaurent
+   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .resto{width: 40%;}
 }
