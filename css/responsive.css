@@ -9,7 +9,7 @@
 @media screen and (min-width:1024px)
 {
     .bloc-food article{width: 32% !important;}
-    .resto{width: 20%;}
+    .resto{width: 20% !important;}
 }
 
 @media screen and (min-width:768px)
