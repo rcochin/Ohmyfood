@@ -9,6 +9,7 @@
 @media screen and (min-width:1024px)
 {
     .bloc-food article{width: 32% !important;}
+    .resto{width: 20%;}
 }
 
 @media screen and (min-width:768px)
@@ -40,6 +41,12 @@
    .bloc-fonctionnement .pres-link
    {
        width: 29%;
+       margin: 0px;
        margin-top: 15px;
+   }
+   .bloc-loader
+   {
+       display: flex;
+       justify-content: center;
    }
 }
