@@ -376,3 +376,9 @@ h5{font-size: 17px;}
         transform: translateY(0px);
     }
 }
+
+.commande
+{
+    margin: 0 auto;
+    width: 170px;
+}
