@@ -19,6 +19,11 @@ h1,h2,h3,h4,h5,h6{margin: 0px;}
     animation: desappear 0.1s linear forwards 4s;
     opacity: 1;
 }
+.bloc-loader
+{
+   display: flex;
+   justify-content: center;
+}
 .loading-spinner
 {
     top: 50%;
