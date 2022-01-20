@@ -256,11 +256,11 @@ footer i{min-width: 29px;}
 }
 .fa-heart:hover
 {
-    -webkit-text-stroke-width:0px;
-    background: linear-gradient(0.48turn, #FF79DA 20%, #9356DC); 
+    -webkit-text-stroke-width: 0px;
+    background-color: #FF79DA;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 800ms linear;
+    transition: background-color 500ms linear;
 }
 /*----menu-1----*/
 .page-id-2 main, .page-id-2 section{background-color: #f6f6f6}
@@ -324,7 +324,14 @@ footer i{min-width: 29px;}
     display: flex;
     justify-content: space-between;
 }
-.desc-food:first-child{text-overflow: ellipsis;}
+.desc-food:first-child
+{
+    margin-right: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
 h5{font-size: 17px;}
 .hide
 {
