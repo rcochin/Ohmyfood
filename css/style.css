@@ -359,7 +359,13 @@ h5{font-size: 17px;}
     transition: transform 500ms ease-out;
 }
 
-.page-id-2 article:hover .hide{display: block !important;}
+.page-id-2 article:hover .hide
+{
+    display: block !important;
+    transform: translateY(40px);
+    animation: slide 400ms forwards;
+
+}
 .page-id-2 article:hover .fa-check-circle
 {
     transform: translateX(0px);
@@ -375,8 +381,7 @@ h5{font-size: 17px;}
 
 .bloc-food article
 {
-    transform: translateY(40px);
-    animation: slide 400ms forwards;
+    
 }
 .bloc-food article:nth-child(3){animation-delay: 200ms;}
 .bloc-food article:nth-child(4){animation-delay: 300ms; animation-duration: 500ms;}
