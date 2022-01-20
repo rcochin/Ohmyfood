@@ -324,7 +324,7 @@ footer i{min-width: 29px;}
     display: flex;
     justify-content: space-between;
 }
-.desc-food:first-child
+.desc-food p:nth-child(1)
 {
     margin-right: 15px;
     text-overflow: ellipsis;
