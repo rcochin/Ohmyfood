@@ -362,8 +362,8 @@ h5{font-size: 17px;}
 .page-id-2 article:hover .hide
 {
     display: block !important;
-    transform: translateY(40px);
-    animation: slide 400ms forwards;
+    transform: translateX(40px);
+    animation: slide2 400ms forwards;
 
 }
 .page-id-2 article:hover .fa-check-circle
@@ -391,6 +391,12 @@ h5{font-size: 17px;}
     to
     {
         transform: translateY(0px);
+    }
+}
+@keyframes slide2{
+    to
+    {
+        transform: translateX(0px);
     }
 }
 
