@@ -352,16 +352,21 @@ h5{font-size: 17px;}
     border-bottom-right-radius: 16px;
     transform: translateX(50px);
 }
-
-.page-id-2 article:hover .hide{
-    display: block !important;
-    width: 0%;
-    animation: check 400ms forwards;
-}
 .page-id-2 article:hover .fa-check-circle::before
 {
     transform: rotate(-360deg);
     transition: transform 500ms ease-out;
+}
+
+.page-id-2 article:hover .hide{
+    display: block !important;
+    width: 20%;
+    animation: check 400ms forwards;
+}
+.page-id-2 article:hover .fa-check-circle
+{
+    transform: translateX(0px);
+    transition: transform 400ms ease-in-out;
 }
 
 .page-id-2 main
@@ -390,7 +395,7 @@ h5{font-size: 17px;}
 }
 @keyframes check{
     to{
-        width: 20%;
+        transform: translateX(0px);
     }
 }
 
