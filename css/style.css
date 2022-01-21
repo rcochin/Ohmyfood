@@ -253,7 +253,6 @@ footer i{min-width: 29px;}
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    pointer-events: none;
 }
 .fa-heart:hover
 {
